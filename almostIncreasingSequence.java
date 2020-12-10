@@ -22,7 +22,7 @@ boolean almostIncreasingSequence(int[] sequence) {
         
         if (a >= b)
         {
-			//"remove" = assigning a lesser value to the current element
+            //"remove" = assigning a lesser value to the current element
             removed++;
             sequence[i] = b-1;
         }
